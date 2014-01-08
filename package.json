@@ -35,10 +35,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paul90/wiki-plugin-reduce.git"
+    "url": "https://github.com/fedwiki/wiki-plugin-reduce.git"
   },
   "bugs": {
-    "url": "https://github.com/paul90/wiki-plugin-reduce/issues"
+    "url": "https://github.com/fedwiki/wiki-plugin-reduce/issues"
   },
   "engines": {
     "node": "0.10"

@@ -19,7 +19,7 @@
     {
       "type": "paragraph",
       "id": "e8662c8b1c2f40db",
-      "text": "Find source on [https://github.com/WardCunningham/Smallest-Federated-Wiki/tree/master/client/plugins/reduce GitHub]."
+      "text": "Find source on [https://github.com/fedwiki/wiki-plugin-reduce GitHub]."
     },
     {
       "type": "paragraph",
@@ -567,6 +567,16 @@
         "text": "Double click the slider's thumb to retrieve a spreadsheet version of the calculation. See [[More About Reduce Plugin]]."
       },
       "date": 1367127380249
+    },
+    {
+      "type": "edit",
+      "id": "e8662c8b1c2f40db",
+      "item": {
+        "type": "paragraph",
+        "id": "e8662c8b1c2f40db",
+        "text": "Find source on [https://github.com/fedwiki/wiki-plugin-reduce GitHub]."
+      },
+      "date": 1389184065978
     }
   ]
 }

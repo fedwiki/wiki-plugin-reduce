@@ -12,3 +12,9 @@ Wiki Plugin - reduce
   date: 2014-01-08
   changes:
     - Migrated to fedwiki GitHub organization
+
+0.1.2
+  date: 2014-01-20
+  changes:
+    - Better use of coffeescript
+    - Started on build tests

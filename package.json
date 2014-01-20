@@ -1,6 +1,6 @@
 {
   "name": "wiki-plugin-reduce",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Federated Wiki - Reduce Plug-in",
   "keywords": [
     "wiki",
@@ -30,7 +30,10 @@
   "devDependencies": {
     "grunt": "~0.4.x",
     "grunt-contrib-coffee": "~0.7.x",
-    "grunt-contrib-watch": "~0.5.x"
+    "grunt-contrib-watch": "~0.5.x",
+    "mocha": "*",
+    "expect.js": "*",
+    "grunt-mocha-test": "~0.8.1"
   },
   "license": "MIT",
   "repository": {

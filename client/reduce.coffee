@@ -9,11 +9,11 @@ parse = (text) ->
     if words is null or words.length < 1
       # ignore it
     else if words[0] is 'FOLD'
-      program.find = words[1..999].join ' '
+      program.find = words[1..].join ' '
     else if words[0] is 'WATCH'
-      program.watch = words[1..999].join ' '
+      program.watch = words[1..].join ' '
     else if words[0] is 'SLIDE'
-      program.slide = words[1..999].join ' '
+      program.slide = words[1..].join ' '
     else
       program.error = {line, message: "can't make sense of line"}
   program
@@ -170,4 +170,5 @@ bind = ($item, item) ->
     code $item, item, (formula) ->
       wiki.dialog "Slider Computation", "<pre>#{formula}</pre>"
 
-window.plugins.reduce = {emit, bind}
+window.plugins.reduce = {emit, bind} if window?
+module.exports = {parse} if module?

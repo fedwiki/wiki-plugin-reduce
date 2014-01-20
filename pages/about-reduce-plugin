@@ -44,7 +44,7 @@
     {
       "type": "paragraph",
       "id": "e8f4173a9754f362",
-      "text": "<b>FOLD page fold name</b> to select a fold containing links to pages with calculations. One can drag links into or out of this fold to alter the choice and order of pages summarized."
+      "text": "<b>FOLD page fold name</b> to select a fold containing links to pages with calculations. One can drag links into or out of this fold to alter the choice and order of pages summarized. Read more [[About PageFold Plugin]]."
     },
     {
       "type": "pagefold",
@@ -570,13 +570,24 @@
     },
     {
       "type": "edit",
+      "id": "e8f4173a9754f362",
+      "item": {
+        "type": "paragraph",
+        "id": "e8f4173a9754f362",
+        "text": "<b>FOLD page fold name</b> to select a fold containing links to pages with calculations. One can drag links into or out of this fold to alter the choice and order of pages summarized. Read more [[About PageFold Plugin]]."
+      },
+      "date": 1390229484840
+    },
+    {
+      "type": "edit",
       "id": "e8662c8b1c2f40db",
       "item": {
         "type": "paragraph",
         "id": "e8662c8b1c2f40db",
         "text": "Find source on [https://github.com/fedwiki/wiki-plugin-reduce GitHub]."
       },
-      "date": 1389184065978
+      "date": 1390229594136
     }
-  ]
+  ],
+  "plugin": "reduce"
 }

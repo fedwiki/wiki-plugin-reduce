@@ -22,9 +22,9 @@
       "text": "Find source on [https://github.com/fedwiki/wiki-plugin-reduce GitHub]."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "6318faab25ef5dc6",
-      "text": "<h3> Configuration"
+      "text": "<h3>Configuration<h3>"
     },
     {
       "type": "paragraph",
@@ -32,19 +32,19 @@
       "text": "Double click the summary to edit its configuration. The plugin interprets these words."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "b73a33e58404c3ca",
       "text": "<b>WATCH variable name</b> to see the variable's value at the end of each page of methods."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "a01b9157485d4acc",
       "text": "<b>SLIDE variable name</b> to scrub through values from 0 to 2x the variable's previous value. Scrub through 0 to 100 if no previous value."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "e8f4173a9754f362",
-      "text": "<b>FOLD page fold name</b> to select a fold containing links to pages with calculations. One can drag links into or out of this fold to alter the choice and order of pages summarized. Read more [[About PageFold Plugin]]."
+      "text": "<b>FOLD page fold name</b> to select a fold containing links to pages with calculations. One can drag links into or out of this fold to alter the choice and order of pages summarized."
     },
     {
       "type": "pagefold",
@@ -77,9 +77,9 @@
       "text": "Double click the slider's thumb to retrieve a spreadsheet version of the calculation. See [[More About Reduce Plugin]]."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "a695e9b5128aa9a2",
-      "text": "<h3> About the Name"
+      "text": "<h3>About the Name</h3>"
     },
     {
       "type": "paragraph",
@@ -570,23 +570,83 @@
     },
     {
       "type": "edit",
-      "id": "e8f4173a9754f362",
-      "item": {
-        "type": "paragraph",
-        "id": "e8f4173a9754f362",
-        "text": "<b>FOLD page fold name</b> to select a fold containing links to pages with calculations. One can drag links into or out of this fold to alter the choice and order of pages summarized. Read more [[About PageFold Plugin]]."
-      },
-      "date": 1390229484840
-    },
-    {
-      "type": "edit",
       "id": "e8662c8b1c2f40db",
       "item": {
         "type": "paragraph",
         "id": "e8662c8b1c2f40db",
         "text": "Find source on [https://github.com/fedwiki/wiki-plugin-reduce GitHub]."
       },
-      "date": 1390229594136
+      "date": 1389184065978
+    },
+    {
+      "type": "edit",
+      "id": "6318faab25ef5dc6",
+      "item": {
+        "type": "html",
+        "id": "6318faab25ef5dc6",
+        "text": "<h3> Configuration"
+      },
+      "date": 1418371438416
+    },
+    {
+      "type": "edit",
+      "id": "6318faab25ef5dc6",
+      "item": {
+        "type": "html",
+        "id": "6318faab25ef5dc6",
+        "text": "<h3>Configuration<h3>"
+      },
+      "date": 1418371446039
+    },
+    {
+      "type": "edit",
+      "id": "b73a33e58404c3ca",
+      "item": {
+        "type": "html",
+        "id": "b73a33e58404c3ca",
+        "text": "<b>WATCH variable name</b> to see the variable's value at the end of each page of methods."
+      },
+      "date": 1418371448126
+    },
+    {
+      "type": "edit",
+      "id": "a01b9157485d4acc",
+      "item": {
+        "type": "html",
+        "id": "a01b9157485d4acc",
+        "text": "<b>SLIDE variable name</b> to scrub through values from 0 to 2x the variable's previous value. Scrub through 0 to 100 if no previous value."
+      },
+      "date": 1418371449741
+    },
+    {
+      "type": "edit",
+      "id": "e8f4173a9754f362",
+      "item": {
+        "type": "html",
+        "id": "e8f4173a9754f362",
+        "text": "<b>FOLD page fold name</b> to select a fold containing links to pages with calculations. One can drag links into or out of this fold to alter the choice and order of pages summarized."
+      },
+      "date": 1418371451541
+    },
+    {
+      "type": "edit",
+      "id": "a695e9b5128aa9a2",
+      "item": {
+        "type": "html",
+        "id": "a695e9b5128aa9a2",
+        "text": "<h3> About the Name"
+      },
+      "date": 1418371703467
+    },
+    {
+      "type": "edit",
+      "id": "a695e9b5128aa9a2",
+      "item": {
+        "type": "html",
+        "id": "a695e9b5128aa9a2",
+        "text": "<h3>About the Name</h3>"
+      },
+      "date": 1418371711738
     }
   ],
   "plugin": "reduce"

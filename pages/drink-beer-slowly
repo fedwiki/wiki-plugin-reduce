@@ -22,7 +22,7 @@
       "text": "Bottles of Beer\nTake a Few Down\nSUM Bottles of Beer"
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "b9a4e212f50b4366",
       "text": "Try adding more drinking strategies to this scenario to consume the remaining beer.<li> [[Drink Beer Slowly]] <li> [[Drink Beer Similarly]] <li> [[Drink Beer in Proportion]]"
     }
@@ -193,6 +193,17 @@
         "text": "Try adding more drinking strategies to this scenario to consume the remaining beer.<li> [[Drink Beer Slowly]] <li> [[Drink Beer Similarly]] <li> [[Drink Beer in Proportion]]"
       },
       "date": 1367108668174
+    },
+    {
+      "type": "edit",
+      "id": "b9a4e212f50b4366",
+      "item": {
+        "type": "html",
+        "id": "b9a4e212f50b4366",
+        "text": "Try adding more drinking strategies to this scenario to consume the remaining beer.<li> [[Drink Beer Slowly]] <li> [[Drink Beer Similarly]] <li> [[Drink Beer in Proportion]]"
+      },
+      "date": 1418371604152
     }
-  ]
+  ],
+  "plugin": "reduce"
 }

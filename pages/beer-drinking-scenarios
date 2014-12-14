@@ -7,9 +7,9 @@
       "text": "We consider numerous ways to share and consume a limited supply of beer. We can open a sequence of pages to explore a particular scenario, adjust parameters of that scenario and then document the scenario with hyperlinks to the chosen strategies."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "feb1526c046d97de",
-      "text": "<h3> Choices"
+      "text": "<h3>Choices</h3>"
     },
     {
       "type": "paragraph",
@@ -42,9 +42,9 @@
       "text": "[[Drink Beer in Proportion]] to the number available."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "f5dd8aebe273185e",
-      "text": "<h3> Analysis"
+      "text": "<h3>Analysis</h3>"
     },
     {
       "type": "paragraph",
@@ -77,9 +77,9 @@
       "text": "FOLD Chosen Beer Drinking Strategies\nSLIDE Take a Few Down"
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "8c00d06e41e93b9f",
-      "text": "<h3> Notes"
+      "text": "<h3>Notes</h3>"
     },
     {
       "type": "paragraph",
@@ -1041,6 +1041,67 @@
         "text": "This plugin has some similarity to the Rollup plugin which also also retrieves and evaluates off-screen pages. Rollup is happy to aggregate independent calculations from many pages while Reduce is more about repeating calculations on a few pages while varying parameters. See [[About Rollup Plugin]]."
       },
       "date": 1367121564665
+    },
+    {
+      "type": "edit",
+      "id": "feb1526c046d97de",
+      "item": {
+        "type": "html",
+        "id": "feb1526c046d97de",
+        "text": "<h3> Choices"
+      },
+      "date": 1418371459965
+    },
+    {
+      "type": "edit",
+      "id": "feb1526c046d97de",
+      "item": {
+        "type": "html",
+        "id": "feb1526c046d97de",
+        "text": "<h3>Choices</h3>"
+      },
+      "date": 1418371466364
+    },
+    {
+      "type": "edit",
+      "id": "f5dd8aebe273185e",
+      "item": {
+        "type": "html",
+        "id": "f5dd8aebe273185e",
+        "text": "<h3> Analysis"
+      },
+      "date": 1418371469284
+    },
+    {
+      "type": "edit",
+      "id": "f5dd8aebe273185e",
+      "item": {
+        "type": "html",
+        "id": "f5dd8aebe273185e",
+        "text": "<h3>Analysis</h3>"
+      },
+      "date": 1418371476539
+    },
+    {
+      "type": "edit",
+      "id": "8c00d06e41e93b9f",
+      "item": {
+        "type": "html",
+        "id": "8c00d06e41e93b9f",
+        "text": "<h3> Notes"
+      },
+      "date": 1418371494859
+    },
+    {
+      "type": "edit",
+      "id": "8c00d06e41e93b9f",
+      "item": {
+        "type": "html",
+        "id": "8c00d06e41e93b9f",
+        "text": "<h3>Notes</h3>"
+      },
+      "date": 1418371503314
     }
-  ]
+  ],
+  "plugin": "reduce"
 }

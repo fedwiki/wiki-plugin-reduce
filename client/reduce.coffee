@@ -1,4 +1,9 @@
-
+###
+ * Federated Wiki : Reduce Plugin
+ *
+ * Licensed under the MIT license.
+ * https://github.com/fedwiki/wiki-plugin-reduce/blob/master/LICENSE.txt
+###
 
 # interpret item's markup
 
@@ -166,7 +171,7 @@ emit = ($item, item) ->
 
 bind = ($item, item) ->
   $item.find('table').dblclick -> wiki.textEditor $item, item
-  $item.find('.slider').dblclick -> 
+  $item.find('.slider').dblclick ->
     code $item, item, (formula) ->
       wiki.dialog "Slider Computation", "<pre>#{formula}</pre>"
 

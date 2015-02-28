@@ -33,9 +33,15 @@
     "grunt-contrib-watch": "~0.6",
     "mocha": "*",
     "expect.js": "*",
-    "grunt-mocha-test": "~0.12"
+    "grunt-mocha-test": "~0.12",
+    "grunt-git-authors": "~2"
   },
-  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/fedwiki/wiki-plugin-reduce/blob/master/LICENSE.txt"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/fedwiki/wiki-plugin-reduce.git"

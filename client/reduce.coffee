@@ -102,9 +102,9 @@ prefetch = (titles, done) ->
 performMethod = (state, done) ->
   if state.methods.length > 0
     state.plugin.eval state, state.methods.shift(), state.input, (state, output) ->
-       state.output = output
-       _.extend state.input, output
-       performMethod state, done
+      state.output = output
+     _.extend state.input, output
+     performMethod state, done
   else
     return done state
 

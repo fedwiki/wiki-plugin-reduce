@@ -170,8 +170,8 @@ emit = ($item, item) ->
       console.log 'emit/prefetch/recalculate complete'
 
 bind = ($item, item) ->
-  $item.find('table').dblclick -> wiki.textEditor $item, item
-  $item.find('.slider').dblclick ->
+  $item.find('table').on 'dblclick', () -> wiki.textEditor $item, item
+  $item.find('.slider').on 'dblclick', () ->
     code $item, item, (formula) ->
       wiki.dialog "Slider Computation", "<pre>#{formula}</pre>"
 

@@ -33,13 +33,13 @@
     "update-authors": "node scripts/update-authors.cjs"
   },
   "devDependencies": {
-    "@eslint/js": "^9.18.0",
-    "esbuild": "^0.25.0",
-    "eslint": "^9.18.0",
+    "@eslint/js": "^10.0.1",
+    "esbuild": "^0.28.0",
+    "eslint": "^10.3.0",
     "expect.js": "^0.3.1",
-    "globals": "^16.0.0",
+    "globals": "^17.6.0",
     "grunt-git-authors": "~3",
-    "prettier": "^3.4.2"
+    "prettier": "^3.8.3"
   },
   "license": "MIT",
   "repository": {

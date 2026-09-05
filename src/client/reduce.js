@@ -32,11 +32,11 @@ const find = (program, page) => {
     for (const item of page.story) {
       if (item.type === 'pagefold') {
         parsing = item.text === program.find
-      } else if (parsing && item.type === 'paragraph') {
+      } else if (parsing && (item.type === 'paragraph' || item.type === 'markdown')) {
         const links = item.text.match(/\[\[.*?\]\]/g)
         if (links) {
           for (const link of links) {
-            titles.push({ title: link.substring(2, link.length - 4) })
+            titles.push({ title: link.substring(2, link.length - 2) })
           }
         }
       }
@@ -270,4 +270,4 @@ if (typeof window !== 'undefined') {
   window.plugins.reduce = { emit, bind }
 }
 
-export const reduce = typeof window == 'undefined' ? { parse } : undefined
+export const reduce = typeof window == 'undefined' ? { parse, find } : undefined

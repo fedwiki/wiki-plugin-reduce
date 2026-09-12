@@ -32,11 +32,11 @@ const find = (program, page) => {
     for (const item of page.story) {
       if (item.type === 'pagefold') {
         parsing = item.text === program.find
-      } else if (parsing && item.type === 'paragraph') {
+      } else if (parsing && (item.type === 'paragraph' || item.type === 'markdown')) {
         const links = item.text.match(/\[\[.*?\]\]/g)
         if (links) {
           for (const link of links) {
-            titles.push({ title: link.substring(2, link.length - 4) })
+            titles.push({ title: link.substring(2, link.length - 2) })
           }
         }
       }
@@ -96,8 +96,8 @@ const compile = async (program, titles, done) => {
 
     for (const result of results) {
       emitrow(context)
-      emitrow(context, result[0].title)
-      for (const item of result[0].story) {
+      emitrow(context, result.title)
+      for (const item of result.story) {
         if (item.type === 'method') {
           generate(context, item.text)
         }
@@ -128,7 +128,7 @@ const prefetch = async (titles, done) => {
       const result = results[i]
       title.items = []
 
-      for (const item of result[0].story) {
+      for (const item of result.story) {
         if (item.type === 'method') {
           title.items.push(item)
         }
@@ -165,8 +165,10 @@ const performTitle = async (state, done) => {
     state.methods = state.titles[0].items.filter(item => item)
     try {
       await performMethod(state, state => {
-        const value = state.input[state.program.watch || state.program.slide]
-        state.titles[0].row.find('td:last').text(value.toFixed(2))
+        const watched = state.input[state.program.watch || state.program.slide]
+        // Method returns a measurement {value, units} when the label carries units
+        const value = watched && watched.value !== undefined ? watched.value : watched
+        state.titles[0].row.find('td:last').text(typeof value === 'number' ? value.toFixed(2) : '')
         state.titles.shift()
         performTitle(state, done)
       })
@@ -270,4 +272,4 @@ if (typeof window !== 'undefined') {
   window.plugins.reduce = { emit, bind }
 }
 
-export const reduce = typeof window == 'undefined' ? { parse } : undefined
+export const reduce = typeof window == 'undefined' ? { parse, find } : undefined
